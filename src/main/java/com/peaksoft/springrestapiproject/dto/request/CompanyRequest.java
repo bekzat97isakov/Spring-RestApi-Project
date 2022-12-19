@@ -1,4 +1,19 @@
-package com.peaksoft.springrestapiproject.converter.request;
+package com.peaksoft.springrestapiproject.dto.request;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class CompanyRequest {
+
+    private String companyName;
+
+    private String locatedCountry;
+
 }
